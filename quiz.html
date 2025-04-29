@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Dev Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="quiz-body">
+  <div class="quiz-container">
+    <h1>🧠 Web Development Quiz</h1>
+    <form id="quizForm" onsubmit="return submitQuiz(event)">
+      
+      <div class="question">
+        <p>1. What does HTML stand for?</p>
+        <label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label>
+        <label><input type="radio" name="q1" value="b"> Home Tool Markup Language</label>
+        <label><input type="radio" name="q1" value="c"> Hyperlinks and Text Markup Language</label>
+      </div>
+
+      <div class="question">
+        <p>2. Which tag is used to add a hyperlink in HTML?</p>
+        <label><input type="radio" name="q2" value="a"> &lt;link&gt;</label>
+        <label><input type="radio" name="q2" value="b"> &lt;a&gt;</label>
+        <label><input type="radio" name="q2" value="c"> &lt;href&gt;</label>
+      </div>
+
+      <div class="question">
+        <p>3. Which property is used in CSS to change text color?</p>
+        <label><input type="radio" name="q3" value="a"> background-color</label>
+        <label><input type="radio" name="q3" value="b"> font-color</label>
+        <label><input type="radio" name="q3" value="c"> color</label>
+      </div>
+
+      <div class="question">
+        <p>4. What is the correct syntax to link a CSS file?</p>
+        <label><input type="radio" name="q4" value="a"> &lt;style src="style.css"&gt;</label>
+        <label><input type="radio" name="q4" value="b"> &lt;link rel="stylesheet" href="style.css"&gt;</label>
+        <label><input type="radio" name="q4" value="c"> &lt;css href="style.css"&gt;</label>
+      </div>
+
+      <div class="question">
+        <p>5. What does CSS stand for?</p>
+        <label><input type="radio" name="q5" value="a"> Creative Style Sheets</label>
+        <label><input type="radio" name="q5" value="b"> Computer Style Sheets</label>
+        <label><input type="radio" name="q5" value="c"> Cascading Style Sheets</label>
+      </div>
+
+      <div class="question">
+        <p>6. Which HTML tag is used to insert an image?</p>
+        <label><input type="radio" name="q6" value="a"> &lt;img&gt;</label>
+        <label><input type="radio" name="q6" value="b"> &lt;image&gt;</label>
+        <label><input type="radio" name="q6" value="c"> &lt;src&gt;</label>
+      </div>
+
+      <div class="question">
+        <p>7. Which symbol is used to select an ID in CSS?</p>
+        <label><input type="radio" name="q7" value="a"> #</label>
+        <label><input type="radio" name="q7" value="b"> .</label>
+        <label><input type="radio" name="q7" value="c"> *</label>
+      </div>
+
+      <div class="question">
+        <p>8. Which language is used to make a webpage interactive?</p>
+        <label><input type="radio" name="q8" value="a"> HTML</label>
+        <label><input type="radio" name="q8" value="b"> CSS</label>
+        <label><input type="radio" name="q8" value="c"> JavaScript</label>
+      </div>
+
+      <div class="question">
+        <p>9. What does DOM stand for?</p>
+        <label><input type="radio" name="q9" value="a"> Document Object Model</label>
+        <label><input type="radio" name="q9" value="b"> Data Object Method</label>
+        <label><input type="radio" name="q9" value="c"> Digital Ordinance Model</label>
+      </div>
+
+      <div class="question">
+        <p>10. Which function is used to write in the browser console in JavaScript?</p>
+        <label><input type="radio" name="q10" value="a"> print()</label>
+        <label><input type="radio" name="q10" value="b"> console.log()</label>
+        <label><input type="radio" name="q10" value="c"> write.console()</label>
+      </div>
+
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

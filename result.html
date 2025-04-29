@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="result-body">
+  <div class="result-container">
+    <h1>🎉 Quiz Results</h1>
+    <p id="result"></p>
+  </div>
+  <script>
+    const correct = localStorage.getItem("correct");
+    const wrong = localStorage.getItem("wrong");
+    document.getElementById("result").innerText = `Correct: ${correct} | Wrong: ${wrong}`;
+  </script>
+</body>
+</html>
